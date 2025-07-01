@@ -1,0 +1,32 @@
+html{
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    background-color: #FFF0F3;
+}
+
+.button_caption {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+#reason_button {
+    cursor: pointer;
+    width: 100px;
+}
+
+.gifs {
+    mix-blend-mode: multiply;
+    width: 4em;
+}
+
+h1 {
+    color: #FF4D6D;
+}
+
+h1 span {
+    text-decoration: underline;
+}
