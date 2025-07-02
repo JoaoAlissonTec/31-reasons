@@ -96,7 +96,7 @@ function formatedDate(date){
 }
 
 function addCookie(key, value){
-    document.cookie = key + "=" + value;
+    document.cookie = key + "=" + value + ";expires=Thu, 31 Jul 2025 23:59:59";
 }
 
 function getCookie(key) {
